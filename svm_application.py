@@ -1,5 +1,4 @@
 import sklearn
-
 from sklearn import datasets
 from sklearn import svm
 from sklearn import metrics
@@ -24,8 +23,6 @@ def predict(kernel, c, deg, gamma):
     mean_acc = sum_acc/n
     print(f"Accuracy:\t{mean_acc}\nKernel used:\t{kernel}\nC param:\t{c}\nDegree\t{deg}\nGamma param:\t{gamma}\t")
     print("\n*********************\n")
-
-
 
 
 for i in [10**5, 1, 10**-5]:
